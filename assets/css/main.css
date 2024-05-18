@@ -9336,12 +9336,20 @@ blockquote cite::before {
 .tp-footer-widget-content-list-item > a:hover {
   color: var(--tp-theme-primary);
 }
+
 .tp-footer-widget-content-list-item i {
   font-size: 16px;
   /* color: var(--tp-theme-primary); */
   color: #ffffff !important;
   margin-right: 20px;
 }
+.tp-footer-widget-content-list-item i:hover {
+  font-size: 16px;
+  /* color: var(--tp-theme-primary); */
+  color: var(--tp-theme-primary) !important;
+  margin-right: 20px;
+}
+
 .tp-footer-widget-title {
   font-weight: 700;
   font-size: 18px;
@@ -13019,7 +13027,7 @@ blockquote cite::before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #051650ba;
+  background-color: #051650;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
