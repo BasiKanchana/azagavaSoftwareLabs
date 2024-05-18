@@ -678,7 +678,7 @@
 		},
 		// Navigation arrows
 		navigation: {
-			nextEl: '.tp-testimonial-4-nxt',
+			nextEl: '.tp-testimonial-4-nxt active',
 			prevEl: '.tp-testimonial-4-prv',
 		},
 		rtl: rtl_setting,
