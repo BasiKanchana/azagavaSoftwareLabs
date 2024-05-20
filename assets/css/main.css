@@ -3216,7 +3216,7 @@ div.demo img {
 }
 .offcanvas__close {
   position: absolute;
-  top: 35px;
+  top: 37px;
   /* left: -75px; */
   right: 20px;
   z-index: 2000;
