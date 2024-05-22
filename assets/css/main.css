@@ -18733,8 +18733,9 @@ font-size: 18px;
   width: 60px;
   font-size: 60px;
   color: #d90a2c;
+  /* color: #008080; */
 }
-.tp-services-cards-title{
+.tp-services-cards-title {
   font-size: 26px;
   color: var(--tp-common-white);
   margin-left: 75px;
