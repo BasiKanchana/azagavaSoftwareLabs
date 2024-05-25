@@ -10993,10 +10993,11 @@ blockquote cite::before {
 /*  7.4 About css
 /*----------------------------------------*/
 .tp-about-info-item-icon {
-  font-size: 60px;
+  font-size: 40px;
   color: var(--tp-theme-primary);
   flex: 0 0 auto;
   margin-right: 30px;
+  margin-bottom: 25px;
 }
 .tp-about-thumb {
   position: relative;
@@ -11227,7 +11228,7 @@ blockquote cite::before {
   }
 }
 .tp-about-3-item-icon i {
-  font-size: 65px;
+  font-size: 20px !important;
   color: var(--tp-theme-primary);
   background-color: rgb(242, 244, 248);
   width: 90px;
@@ -11238,6 +11239,8 @@ blockquote cite::before {
 }
 .tp-about-3-item-title {
   font-size: 20px;
+  align-items: center;
+  line-height: 77px;
 }
 .tp-about-3-item-content p {
   font-size: 16px;
@@ -11365,6 +11368,7 @@ blockquote cite::before {
 @media (max-width: 767px) {
   .tp-about-4 .tp-about-info-item {
     flex-wrap: wrap;
+  
   }
 }
 .tp-about-4 .tp-about-info-item:hover {
