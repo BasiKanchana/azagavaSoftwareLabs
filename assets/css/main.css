@@ -6458,7 +6458,7 @@ a.ui-button:active {
   position: relative;
 }
 .main-menu ul li.has-dropdown > a::after {
-  content: "\f107";
+  content: "\f105";
   -webkit-transform: translateY(1px);
   -moz-transform: translateY(1px);
   -ms-transform: translateY(1px);
@@ -9480,13 +9480,13 @@ blockquote cite::before {
   margin-top: 20px;
 }
 .tp-footer-widget-newsletter-content p {
-  font-size: 14px;
+  font-size: 17px;
   color: #aea8b9;
 }
 .tp-footer-widget-newsletter-social a {
-  font-size: 14px;
+  font-size: 27px;
   color: var(--tp-common-white);
-  margin-right: 13px;
+  margin-right: 20px;
 }
 .tp-footer-widget-newsletter-social a:hover {
   color: var(--tp-theme-primary);
@@ -10903,6 +10903,8 @@ blockquote cite::before {
   .tp-provide-bg {
     padding-left: 15px;
     padding-right: 15px;
+    
+
   }
 }
 .tp-provide-width {
@@ -10918,12 +10920,14 @@ blockquote cite::before {
 .tp-provide-wrap {
   padding: 46px 38px 32px 38px;
   position: relative;
+  /* height: 60vh; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px),
   (max-width: 767px) {
   .tp-provide-wrap {
     padding: 46px 20px 32px 15px;
+    /* height: 100vh !important; */
   }
 }
 .tp-provide-wrap:hover .tp-provide-item-bg {
@@ -12622,6 +12626,26 @@ blockquote cite::before {
   transition: 0.5s;
   box-shadow: 0px 2px 20px 0px rgba(23, 19, 4, 0.04);
 }
+.tp-feature-item-2 {
+  width: 359px;
+  background-color: var(--tp-common-white);
+  position: relative;
+  padding: 35px 40px 32px 40px;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  box-shadow: 0px 2px 20px 0px rgba(23, 19, 4, 0.04);
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-feature-item-2 {
+    padding: 35px 40px 32px 25px;
+    width: 360px;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-feature-item {
     padding: 35px 40px 32px 25px;
@@ -12653,8 +12677,8 @@ blockquote cite::before {
   color: var(--tp-theme-primary);
   line-height: 1;
   position: absolute;
-  right: 30px;
-  top: 22px;
+  right: -60px;
+  top: -70px;
   z-index: 1;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -18745,3 +18769,32 @@ font-size: 18px;
   margin-left: 75px;
 }
 /* End Services Cards */
+
+/*Start Services cards icons style */
+
+.tp-feature-svg {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 79px;
+  right: 71px;
+}
+.tp-feature-item:hover .cls-1{
+  fill: #fff;
+}
+/* End Services cards icons style */
+/* Start Our Business lines */
+.tp-feature-svg-icons{
+  height: 65px;
+  width: 65px;
+  position: relative;
+  top: 0px;
+  right: 10px;
+  left: 0px;
+}
+
+.tp-provide-wrap:hover .cls-1{
+  fill: #fff
+}
+
+/* End Our Buisiness lines */
